@@ -1,0 +1,9 @@
+[windows]
+20.169.209.255
+
+[windows:vars]
+ansible_user=azureuser
+ansible_password=<Password>
+ansible_connection: winrm
+ansible_winrm_server_cert_validation: ignore
+ansible_winrm_scheme: https
